@@ -157,7 +157,7 @@ class NavBar extends Component {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <a
           className="navbar-brand h1 mb-0"
-          href="https://tejdreamer.github.io/Path_Visualizer/"
+          href="https://tejdreamer.github.io/path_visualizer/"
         >
           {brand}
         </a>
