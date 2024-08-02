@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 
-const brand = window.innerWidth > 600 ? "Pathfinding Visualizer" : "Pathfinder";
+const brand1 = window.innerWidth > 600 ? "Pathfinding Visualizer" : "Pathfinder";
 
 class NavBar extends Component {
   state = {
@@ -159,7 +159,7 @@ class NavBar extends Component {
           className="navbar-brand h1 mb-0"
           href="https://tejdreamer.github.io/path_visualizer/"
         >
-          {brand}
+          {brand1}
         </a>
         <div className="navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
